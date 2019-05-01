@@ -1,0 +1,139 @@
+/* header styles */
+.header {
+  background: #addf;
+  text-align: center;
+  display: flex;
+}
+
+/* heading alignment */
+.h1 {
+  margin: auto;
+}
+
+/* navigation styles */
+.navigation {
+  margin-top: 1%;
+  border: 3px solid #aaa;
+  border-radius: 6px 6px 5px -6px;
+  background: #FFA833;
+}
+
+.ul {
+  display: flex;
+}
+
+.li {
+  margin: .2em;
+  list-style: none;
+}
+
+/* anchor tab styles */
+.a {
+  text-decoration: none;
+  background: #FFA833;
+  border: 2px solid #aaa;
+  padding: 1em;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px 1px green;
+}
+
+/*all satillites info styles  */
+.rockets {
+  width: 24%;
+  text-align: center;
+  padding: .2em;
+  margin-top: 1em;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+/* main body of the webpage */
+.main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* footer styles */
+.footer {
+  margin-top: 2em;
+  background: #000;
+  text-align: center;
+  color: #fff;
+  padding: .2em;
+}
+
+/* media-queries for mobile view */
+@media (min-width:350px) and (max-width:480px) {
+  .header {
+    width: 100%;
+    margin: auto;
+  }
+
+  .h1 {
+    width: 70%;
+  }
+
+  /* logo styles for mobile view */
+  .isro-logo {
+    width: 5em;
+    height: 4rem;
+    border-radius: 50%;
+    margin: auto;
+  }
+
+  .navigation {
+    width: 98%;
+  }
+
+  .ul {
+    display: flex;
+  }
+
+  .li {
+    margin: .2em;
+    list-style: none;
+  }
+
+  .a {
+    padding: .3em;
+    font-weight: bold;
+  }
+
+  .main {
+    width: 98%;
+    flex-wrap: wrap;
+  }
+
+  .satillites {
+    width: 100%;
+  }
+}
+
+/* media-queries for tablet view */
+@media (min-width:481px) and (max-width:780px) {
+  .header {
+    width: 100%;
+    margin: auto;
+  }
+
+  .h1 {
+    width: 70%;
+  }
+
+  /* logo style for tablet view  */
+  .isro-logo {
+    width: 5em;
+    height: 4rem;
+    border-radius: 50%;
+    margin: auto;
+  }
+
+  .main {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .satillites {
+    width: 40%;
+  }
+}
